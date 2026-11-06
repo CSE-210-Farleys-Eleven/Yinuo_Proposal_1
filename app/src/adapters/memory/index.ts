@@ -127,7 +127,7 @@ export interface KeyValueStorage {
   getItem(key: string): string | null;
   setItem(key: string, value: string): void;
 }
-function mapStorage(): KeyValueStorage {
+export function mapStorage(): KeyValueStorage {
   const m = new Map<string, string>();
   return { getItem: (k) => m.get(k) ?? null, setItem: (k, v) => void m.set(k, v) };
 }
