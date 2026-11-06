@@ -29,7 +29,8 @@ function Node({ record, relation, direction }: { record: AnyRecord; relation: Re
   return (
     <Link to={{ name: "chain", uri: record.ref.uri }} className={`card node rel-${relation}`}>
       <span className={`rel-chip rel-${relation}`}>
-        {direction === "up" ? `built on (${relation})` : relation}
+        {/* Above the center: the card below grew from this one. Below: this card grew from the one above. */}
+        {direction === "up" ? `${relation === "deepens" ? "deepened" : "broadened"} ↓` : `${relation} ↑`}
       </span>
       <div className="card-head">
         <span className="kind">{KIND_LABEL[record.kind]}</span><AuthorName did={record.author} />
