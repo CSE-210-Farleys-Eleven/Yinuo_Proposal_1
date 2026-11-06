@@ -8,6 +8,7 @@ CSE 210 final project proposal · Yinuo Zhou
 
 | Path | Contents |
 |---|---|
+| [`docs/PROPOSAL_SHORT.md`](docs/PROPOSAL_SHORT.md) | Two-page summary of the proposal, with current status |
 | [`docs/PROPOSAL.md`](docs/PROPOSAL.md) | Project proposal: motivation, scope, risks, privacy, success criteria |
 | [`docs/DESIGN_PRINCIPLES.md`](docs/DESIGN_PRINCIPLES.md) | Engineering principles the design follows |
 | [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md) | Architecture: system shape, modules, data model, indexer, decisions |
