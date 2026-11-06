@@ -32,6 +32,13 @@ npm test         # run the test suite
 npm run build    # type-check and build
 ```
 
+## Continuous integration
+
+[`.github/workflows/ci.yml`](.github/workflows/ci.yml) runs on every push and pull request:
+
+1. **Type-check, test, build** (`app/`): `npm ci`, `npm run typecheck`, `npm test`, `npm run build` on Node 24.
+2. **Secret scan:** [Gitleaks](https://github.com/gitleaks/gitleaks) over the full git history. A leaked key fails the build.
+
 ## Security
 
 No secrets are needed to run the demo. `.env` files, keys, and credentials are ignored by git; never commit them.
