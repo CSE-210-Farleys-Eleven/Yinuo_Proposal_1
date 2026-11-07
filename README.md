@@ -8,10 +8,13 @@ CSE 210 final project proposal · Yinuo Zhou
 
 | Path | Contents |
 |---|---|
+| [`docs/PROPOSAL_v2.md`](docs/PROPOSAL_v2.md) | **Current proposal (v2):** detailed AT Protocol usage and the 7-module team design |
 | [`docs/PROPOSAL_SHORT.md`](docs/PROPOSAL_SHORT.md) | Two-page summary of the proposal, with current status |
 | [`docs/PROPOSAL.md`](docs/PROPOSAL.md) | Project proposal: motivation, scope, risks, privacy, success criteria |
 | [`docs/DESIGN_PRINCIPLES.md`](docs/DESIGN_PRINCIPLES.md) | Engineering principles the design follows |
 | [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md) | Architecture: system shape, modules, data model, indexer, decisions |
+| [`docs/MODULES.md`](docs/MODULES.md) | Seven modules for a team of 7: input, output, behavior, done criteria, contracts, timeline |
+| [`docs/ATPROTO_TOOLS.md`](docs/ATPROTO_TOOLS.md) | Exact AT Protocol tools, packages, and endpoints we use, with caveats and sources |
 | [`tasks/plan.md`](tasks/plan.md) | Build plan for the demo |
 | `app/` | The demo web app |
 
